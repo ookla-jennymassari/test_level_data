@@ -66,7 +66,7 @@ carrier_color_dict = {
 
 Wave 04:
 
-Make one box plot for each carrier in the carrier colors for the download test.
+Make one box plot for each carrier in the carrier colors for the download tests.
 
 Then make a few more “distribution” plots (e.g. swarm, strip, etc) using seaborn. In particular an “ecdf”.
 
