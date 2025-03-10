@@ -13,6 +13,10 @@ Create a .env file and add the key access to the database 'root_device_data'
 
 Activate the database adding the db name/host/username/pwd
 
+Install plotly library $ conda install plotly
+
+Install seaborn library $ conda install seaborn
+
 Wave 01:
 
 Find the test-level data for this half for “Stockton-CA”:
