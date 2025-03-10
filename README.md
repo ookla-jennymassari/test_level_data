@@ -52,7 +52,7 @@ select * from auto.test_summary_reporting where collection_set_id = 12621;
 
 Wave 02:
 
-Make a box plot of “task speed median” (or the 5th percentile task speed - this 05p will give you zero rows, why?).
+Make a box plot of “task speed median” by carrier using the plotly library.
 
 The column “task speed median” is in the root_device_data (database), md2(schema), test_types(table).
 
