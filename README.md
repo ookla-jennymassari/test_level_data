@@ -37,7 +37,7 @@ Join the test_types tabes with test_summary_unified_reporting table by ID.
 
 Wave 03:
 
-Add the dictionary with the carrier colors as key:
+Add the dictionary with the carrier colors as key and improve the plots visualization.
 
 carrier_color_dict = {
                         'Verizon': '#b00000',
