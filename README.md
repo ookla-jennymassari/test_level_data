@@ -44,6 +44,8 @@ Find the test-level data for this half for “Stockton-CA”:
 
 In OpsManger tool find the “Stockton-CA” ID for this half (1hf/2025). 
 
+The data can be retrieved from root_device_data (database), auto(schema), test_summary_reporting (table)
+
 Run the sql to retrieve the data for the collection set:
 select * from auto.test_summary_reporting where collection_set_id = 12621; 
 
@@ -51,3 +53,8 @@ select * from auto.test_summary_reporting where collection_set_id = 12621;
 Wave 02:
 
 Make a box plot of “task speed median” (or the 5th percentile task speed - this 05p will give you zero rows, why?).
+
+The column “task speed median” is in the root_device_data (database), md2(schema), test_types(table).
+
+Join the test_types tabes with test_summary_unified_reporting table by ID.
+"select * from auto.vi_test_summary_unified_reporting tsr join md2.test_types tt using (test_type_id) where tsr.collection_set_id = 12621;"
